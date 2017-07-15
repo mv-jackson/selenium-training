@@ -16,8 +16,8 @@
 hs_err_pid*
 
 /.idea
-*.iml
-*.jar
+/java/.idea
+*.iml*.jar
 *.war
 *.ear
 *.zip
