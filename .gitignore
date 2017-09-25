@@ -1,3 +1,4 @@
+*.class
 # Log file
 *.log
 
@@ -8,7 +9,15 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+/.idea
+/java/.idea
+*.iml*.jar
 *.war
 *.ear
 *.zip
